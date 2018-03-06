@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DA5E7281FEF8355003D825A /* MasterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5E7271FEF8355003D825A /* MasterController.swift */; };
+		1DA5E72A1FEF859A003D825A /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5E7291FEF859A003D825A /* SearchController.swift */; };
+		1DA5E7301FEF88E0003D825A /* ConnectionListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5E72F1FEF88E0003D825A /* ConnectionListController.swift */; };
+		1DA5E7321FEF8A1B003D825A /* connectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5E7311FEF8A1B003D825A /* connectionCell.swift */; };
+		1DA5E7351FEF9B50003D825A /* TrainConnection+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5E7331FEF9B50003D825A /* TrainConnection+CoreDataClass.swift */; };
+		1DA5E7361FEF9B50003D825A /* TrainConnection+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5E7341FEF9B50003D825A /* TrainConnection+CoreDataProperties.swift */; };
+		1DA5E7381FEF9B6F003D825A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5E7371FEF9B6F003D825A /* Helper.swift */; };
+		1DA5E73C1FEFA30F003D825A /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5E73B1FEFA30F003D825A /* FavouriteViewController.swift */; };
 		1DB9D5021FEF623000DFA073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9D5011FEF623000DFA073 /* AppDelegate.swift */; };
-		1DB9D5041FEF623000DFA073 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9D5031FEF623000DFA073 /* ViewController.swift */; };
 		1DB9D5071FEF623000DFA073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9D5051FEF623000DFA073 /* Main.storyboard */; };
 		1DB9D50A1FEF623000DFA073 /* iTrains.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9D5081FEF623000DFA073 /* iTrains.xcdatamodeld */; };
 		1DB9D50C1FEF623000DFA073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9D50B1FEF623000DFA073 /* Assets.xcassets */; };
 		1DB9D50F1FEF623000DFA073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9D50D1FEF623000DFA073 /* LaunchScreen.storyboard */; };
+		1DB9D5171FEF624700DFA073 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9D5161FEF624700DFA073 /* ApiManager.swift */; };
+		1DB9D5191FEF732000DFA073 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9D5181FEF732000DFA073 /* Connection.swift */; };
+		1DB9D51F1FEF734A00DFA073 /* SafeJsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9D51E1FEF734A00DFA073 /* SafeJsonObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DA5E7271FEF8355003D825A /* MasterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterController.swift; sourceTree = "<group>"; };
+		1DA5E7291FEF859A003D825A /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		1DA5E72F1FEF88E0003D825A /* ConnectionListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionListController.swift; sourceTree = "<group>"; };
+		1DA5E7311FEF8A1B003D825A /* connectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectionCell.swift; sourceTree = "<group>"; };
+		1DA5E7331FEF9B50003D825A /* TrainConnection+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrainConnection+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1DA5E7341FEF9B50003D825A /* TrainConnection+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrainConnection+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1DA5E7371FEF9B6F003D825A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1DA5E73B1FEFA30F003D825A /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 		1DB9D4FE1FEF623000DFA073 /* iTrains.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTrains.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB9D5011FEF623000DFA073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1DB9D5031FEF623000DFA073 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1DB9D5061FEF623000DFA073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DB9D5091FEF623000DFA073 /* iTrains.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iTrains.xcdatamodel; sourceTree = "<group>"; };
 		1DB9D50B1FEF623000DFA073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DB9D50E1FEF623000DFA073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DB9D5101FEF623000DFA073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB9D5161FEF624700DFA073 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		1DB9D5181FEF732000DFA073 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		1DB9D51E1FEF734A00DFA073 /* SafeJsonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeJsonObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +60,8 @@
 		1DB9D4F51FEF623000DFA073 = {
 			isa = PBXGroup;
 			children = (
+				1DA5E7331FEF9B50003D825A /* TrainConnection+CoreDataClass.swift */,
+				1DA5E7341FEF9B50003D825A /* TrainConnection+CoreDataProperties.swift */,
 				1DB9D5001FEF623000DFA073 /* iTrains */,
 				1DB9D4FF1FEF623000DFA073 /* Products */,
 			);
@@ -57,12 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				1DB9D5011FEF623000DFA073 /* AppDelegate.swift */,
-				1DB9D5031FEF623000DFA073 /* ViewController.swift */,
 				1DB9D5051FEF623000DFA073 /* Main.storyboard */,
 				1DB9D50B1FEF623000DFA073 /* Assets.xcassets */,
 				1DB9D50D1FEF623000DFA073 /* LaunchScreen.storyboard */,
 				1DB9D5101FEF623000DFA073 /* Info.plist */,
 				1DB9D5081FEF623000DFA073 /* iTrains.xcdatamodeld */,
+				1DB9D5161FEF624700DFA073 /* ApiManager.swift */,
+				1DB9D5181FEF732000DFA073 /* Connection.swift */,
+				1DB9D51E1FEF734A00DFA073 /* SafeJsonObject.swift */,
+				1DA5E7271FEF8355003D825A /* MasterController.swift */,
+				1DA5E7291FEF859A003D825A /* SearchController.swift */,
+				1DA5E72F1FEF88E0003D825A /* ConnectionListController.swift */,
+				1DA5E7311FEF8A1B003D825A /* connectionCell.swift */,
+				1DA5E7371FEF9B6F003D825A /* Helper.swift */,
+				1DA5E73B1FEFA30F003D825A /* FavouriteViewController.swift */,
 			);
 			path = iTrains;
 			sourceTree = "<group>";
@@ -139,9 +169,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA5E7301FEF88E0003D825A /* ConnectionListController.swift in Sources */,
+				1DB9D5171FEF624700DFA073 /* ApiManager.swift in Sources */,
+				1DA5E7361FEF9B50003D825A /* TrainConnection+CoreDataProperties.swift in Sources */,
+				1DA5E7281FEF8355003D825A /* MasterController.swift in Sources */,
+				1DA5E7321FEF8A1B003D825A /* connectionCell.swift in Sources */,
 				1DB9D50A1FEF623000DFA073 /* iTrains.xcdatamodeld in Sources */,
-				1DB9D5041FEF623000DFA073 /* ViewController.swift in Sources */,
+				1DA5E72A1FEF859A003D825A /* SearchController.swift in Sources */,
+				1DB9D5191FEF732000DFA073 /* Connection.swift in Sources */,
+				1DA5E73C1FEFA30F003D825A /* FavouriteViewController.swift in Sources */,
 				1DB9D5021FEF623000DFA073 /* AppDelegate.swift in Sources */,
+				1DA5E7351FEF9B50003D825A /* TrainConnection+CoreDataClass.swift in Sources */,
+				1DB9D51F1FEF734A00DFA073 /* SafeJsonObject.swift in Sources */,
+				1DA5E7381FEF9B6F003D825A /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thequint.iTrains;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -300,7 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thequint.iTrains;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

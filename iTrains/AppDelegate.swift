@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  iTrains
 //
-//  Created by Pavan Gopal on 12/24/17.
-//  Copyright © 2017 Pavan Gopal. All rights reserved.
+//  Created by veerareddy on 12/27/17.
+//  Copyright © 2017 veerareddy. All rights reserved.
 //
 
 import UIKit
